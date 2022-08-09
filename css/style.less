@@ -59,6 +59,7 @@ header a{
   padding: 1rem 1.5rem;
   background-color: @coffee-4;
   
+  
 }
 
 .hamburger {
@@ -74,7 +75,7 @@ header a{
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: @coffee-5; 
+  background-color: @coffee-6; 
 }
 
 .nav-menu {
@@ -91,7 +92,7 @@ header a{
 .nav-link{
   font-size: 1.6rem;
   font-weight: 400;
-  color: @coffee-5;
+  color: @coffee-6;
   margin: 10px;; 
 }
 
@@ -104,20 +105,20 @@ header a{
 .nav-link:visited {
   color: @coffee-5;
 }
-.bi{
+.bi{ /* icone do menu */
   font-size: 100px;
   font-weight: 400;
-  color: @coffee-5;
+  color: @coffee-6;
   margin: 10px;; 
 }
 
 .nav-logo {    
   font-size: 2.1rem;
   font-weight: 500;
-  color: @coffee-5;
+  color: @coffee-6;
 }
 .nav-logo:hover{
-  color: @coffee-5;
+  color: @coffee-6;
 }
 .nav-logo img{
   width: 65px;
@@ -135,7 +136,7 @@ header a{
       flex-direction: column;
       background-color: @coffee-4;
       width: 100%;               
-      color: #E2E8F0;
+      color: @coffee-6;
       height: 100vh;
       transition: 0.3s;
       box-shadow:
@@ -247,18 +248,35 @@ header a{
   }
 .produtos{
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
+  padding: 24px;
   
   background-size: cover !important;
     background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%,
      rgba(0,0,0,0) 41%, rgba(0,0,0,0.65) 100%),
       url(../images/banner/marmore.jpg) no-repeat center center scroll;
 }
+.produto{
+  align-items: center; 
+  flex-direction: column;
+  margin: 20px;
+  background-color: @coffee-6;
+  padding: 10px;
+  border-radius: 10px;
+  
 
+}
+.produtos img{
+  width: 350px;
+  height: 100%;
+  object-fit: cover;
+  border: @coffee-1 solid 2px;
+  border-radius: 10px;
+} 
 
   /*footer*/
   .footer {
