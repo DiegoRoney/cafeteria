@@ -246,14 +246,15 @@ header a{
     outline-offset: -4px;
   }
 .produtos{
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  // height: 100vh;
   padding: 34px;
-  
+ 
   background-size: cover;
     background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%,
      rgba(0,0,0,0) 41%, rgba(0,0,0,0.65) 100%),
@@ -267,6 +268,7 @@ header a{
   padding: 10px;
   border-radius: 10px;
   width: 320px;
+ 
 
 }
 .produtos img{
@@ -287,7 +289,36 @@ header a{
   border-radius: 10px;
 
 }
+.info{
+  display: flex;
+ flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  //height: 355px;
+  padding: 10px;
+  background-color: @coffee-3;
+  
+  h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: @coffee-5;
+    margin-bottom: 10px;
+  }
+  p{
+    font-size: 15px;
+    color: @coffee-5;
+    margin-bottom: 10px;
+  }
+}
 
+.info-item img{
+  width: 350px;
+  height: 100%;
+  object-fit: cover;
+  margin: 10px;  
+
+}
 
   /*footer*/
   .footer {
@@ -299,6 +330,7 @@ header a{
     background-color: @coffee-4;
     color: @coffee-6;   
     font-size: 15px; 
+   
     
   }
   .footer a{
