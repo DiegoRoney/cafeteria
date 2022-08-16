@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Rancho&display=swap');
 /* Color Theme Swatches in Hex */
 @coffee-1: #7B92A6;
 @coffee-2: #C0D904;
@@ -11,8 +12,9 @@
 
 
 /* fontes */
-@fonteprincipal: 'Dancing Script', cursive;
-@fontesecundaria:verdana;
+@font-family-1: 'Dancing Script', cursive;
+@fonteprincipal: 'Rancho', cursive;
+@fontesecundaria: 'Delius', cursive; 
 
 * {
   margin: 0;
@@ -39,7 +41,7 @@ h2{
     font-size: 2em;
     font-weight: bold;
     color: @coffee-6;
-    font-family: @fonteprincipal;
+    font-family: @fontesecundaria;
 }
 
 /* NAVBAR*/
@@ -197,7 +199,7 @@ header a{
   
  .hero h1 {
     font-style: normal;
-    font-weight: bold;
+    // font-weight: bold;
     color: @coffee-2;
     font-size: 25vmin;
     letter-spacing: 0.03em;
@@ -218,7 +220,8 @@ header a{
   }
 
   .hero button {
-    
+    font-family: @fontesecundaria;
+    font-weight: bold;
     color: #401F18;
     width: 200px;
     height: 60px;
@@ -268,6 +271,12 @@ header a{
   padding: 10px;
   border-radius: 10px;
   width: 320px;
+  h3{
+    font-family: @fonteprincipal;
+    font-size: 20px;
+    color: @coffee-5;    
+    margin-bottom: 10px;
+  }
  
 
 }
@@ -323,7 +332,7 @@ header a{
   
 }
 .item img{
-  width: 350px;
+  width: 300px;
   height: 100%;
   object-fit: cover;
   margin: 10px;  
@@ -343,6 +352,7 @@ header a{
     font-size: 15px;
     color: @coffee-5;
     margin-bottom: 10px;
+    font-family: @fontesecundaria;
   }
 }
 
