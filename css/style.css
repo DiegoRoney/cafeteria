@@ -44,6 +44,7 @@ h2 {
 /* NAVBAR*/
 .header {
   border-bottom: 0px solid #E2E8F0;
+  z-index: 8000;
 }
 header a {
   text-decoration: none;
