@@ -117,7 +117,7 @@ header a {
     justify-content: flex-start;
     align-items: flex-start;
     left: 100%;
-    top: 5rem;
+    top: 4rem;
     flex-direction: column;
     background-color: #401F18;
     width: 100%;
@@ -133,7 +133,7 @@ header a {
     margin: 2.5rem 0;
   }
   .nav-item {
-    margin-left: 5rem;
+    margin-left: 2rem;
   }
   .hamburger {
     display: block;
@@ -318,16 +318,20 @@ button:focus {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 50px;
-  background-color: #8C4318;
+  height: 100px;
   color: #f5f5f5;
-  font-size: 15px;
+  font-size: 20px;
+  overflow: hidden;
+  background-size: cover !important;
+  background: url(../images/banner/grãos.png) no-repeat center center scroll;
 }
 .footer a {
+  background-color: #1b1717b6;
   text-decoration: none;
-  color: #401F18;
+  color: #C0D904;
+  border-radius: 10px;
 }
 .footer a:hover {
-  color: #401F18;
+  color: #C0D904;
 }
 /*footer*/
