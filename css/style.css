@@ -312,6 +312,16 @@ button:focus {
   margin-bottom: 10px;
   font-family: 'Delius', cursive;
 }
+.menu-coffee {
+  background-color: #f5f5f5;
+  font-size: 15px;
+}
+.col-lg-6 {
+  font-family: 'Delius', cursive;
+}
+.col {
+  font-family: 'Delius', cursive;
+}
 /*footer*/
 .footer {
   display: flex;
